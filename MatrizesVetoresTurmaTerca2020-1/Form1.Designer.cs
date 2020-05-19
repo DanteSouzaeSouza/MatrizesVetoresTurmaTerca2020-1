@@ -1,6 +1,6 @@
 ﻿namespace MatrizesVetoresTurmaTerca2020_1
 {
-    partial class Form1
+    partial class FrmVetorMatriz
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnVetor = new System.Windows.Forms.Button();
+            this.lstVetor = new System.Windows.Forms.ListBox();
+            this.SuspendLayout();
+            // 
+            // btnVetor
+            // 
+            this.btnVetor.Location = new System.Drawing.Point(12, 12);
+            this.btnVetor.Name = "btnVetor";
+            this.btnVetor.Size = new System.Drawing.Size(179, 23);
+            this.btnVetor.TabIndex = 0;
+            this.btnVetor.Text = "Vetor";
+            this.btnVetor.UseVisualStyleBackColor = true;
+            // 
+            // lstVetor
+            // 
+            this.lstVetor.FormattingEnabled = true;
+            this.lstVetor.ItemHeight = 16;
+            this.lstVetor.Location = new System.Drawing.Point(12, 50);
+            this.lstVetor.Name = "lstVetor";
+            this.lstVetor.Size = new System.Drawing.Size(179, 164);
+            this.lstVetor.TabIndex = 1;
+            // 
+            // FrmVetorMatriz
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(203, 238);
+            this.Controls.Add(this.lstVetor);
+            this.Controls.Add(this.btnVetor);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "FrmVetorMatriz";
+            this.Text = "Vetores e Matrizes";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnVetor;
+        private System.Windows.Forms.ListBox lstVetor;
     }
 }
 

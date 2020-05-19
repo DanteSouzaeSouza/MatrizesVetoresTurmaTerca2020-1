@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MatrizesVetoresTurmaTerca2020_1
 {
-    public partial class Form1 : Form
+    public partial class FrmVetorMatriz : Form
     {
-        public Form1()
+        public FrmVetorMatriz()
         {
             InitializeComponent();
         }
